@@ -10,7 +10,7 @@ app.use(express.json()); // for parsing application/json
 app.use(ticketRouter);
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://pasindu:pasindu@cluster0.gzomo.mongodb.net/ticketReservation', {
+mongoose.connect('', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log("MongoDB connected"))
